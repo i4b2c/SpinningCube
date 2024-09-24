@@ -108,6 +108,8 @@ void draw_cube(float angleX, float angleY, float angleZ, float scale)
 
     clear_screen();
 
+	printf("Keybinds\nJ - Increase the cube\nK - Decrease the cube\nQ - Exit the program\n");
+
 	for(int idx = 0; idx < spaces; idx++)
 		putchar('\n');
     for (int i = 0; i < height; i++)
